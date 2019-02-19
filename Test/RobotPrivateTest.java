@@ -15,7 +15,7 @@ public class RobotPrivateTest {
 
     @Test
     public void testSetAge() throws Exception {
-        System.out.println("testsetAge");
+        System.out.println("testSetAge");
         Robot target = new Robot("robbie", 5);
         Class secretClass = target.getClass();
 
@@ -32,18 +32,13 @@ public class RobotPrivateTest {
         assertEquals("The ages should be equal", 5,  result);
     }
 
-
-
-
-
-
     /**
      * Accessing a private member
      * Test of setAge method, of class robot.
      */
 
     @Test
-    public void testsetAge1() throws Exception {
+    public void testSetAge1() throws Exception {
         System.out.println("setAge1");
         /* Set up a new Robot */
         Robot target = new Robot("robbie", 3);
